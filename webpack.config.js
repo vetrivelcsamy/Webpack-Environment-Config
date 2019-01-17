@@ -17,7 +17,7 @@ module.exports = ({ mode, presets } = { mode: "production", presets: [] }) => {
                 host: process.env.IP,
                 //https: true,
                 port: process.env.PORT,
-                "public": "npm-world-vetrivelcsamy.c9users.io" //no trailing slash
+                "public": "example.com/url" //no trailing slash
             },
             plugins: [new HtmlWebpackPlugin(), new webpack.ProgressPlugin()]
         },
